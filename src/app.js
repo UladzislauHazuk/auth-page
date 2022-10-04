@@ -14,8 +14,8 @@ btnLogin.addEventListener('click', () => {
     const emailPhone = document.querySelector('.email-phone');
     const password = document.querySelector('.password');
     try {
-        if (!/^([a-zA-Z0-9\.\_\-]+@[a-z]+\.[a-z]{1,3})|(\+[0-9]{12})$/g.test(emailPhone.value)) throw new Error('Wrong email or phone number format');
-        if (!/^\w{8,}$/g.test(password.value)) throw new Error('Password entered too short');
+        if (!/^[\w\.\-@\+]+$/g.test(emailPhone.value)) throw new Error('Wrong email or phone number format');
+        if (password.value.length < 8) throw new Error('Password entered too short');
 
         alert('You have successfully authorized in the system');
 
