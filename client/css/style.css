@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url(../fonts/Poppins-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url(../fonts/Poppins-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url(../fonts/Poppins-SemiBold.ttf) format("truetype");
+}
+main .right-side .login-form .form h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #455360;
+}
+
+main .right-side .login-form .form .sign a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #67bce8;
+  text-decoration: none;
+  margin-left: 7px;
+}
+
+* {
+  font-family: "Poppins";
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main .left-side {
+  width: 50%;
+  background-color: rgb(226, 240, 255);
+}
+main .left-side .img {
+  background-image: url(../img/1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 524px;
+  height: 391px;
+  margin: 174px auto 56px auto;
+}
+main .left-side .left-side-content {
+  width: 400px;
+  margin: auto auto 224px auto;
+}
+main .left-side .left-side-content h2 {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  color: #292731;
+  margin-bottom: 23px;
+}
+main .left-side .left-side-content p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #455360;
+}
+main .right-side {
+  width: 50%;
+  background-color: #F5F5F5;
+}
+main .right-side .login-form {
+  width: 440px;
+  margin: 166px auto auto auto;
+}
+main .right-side .login-form .form-header {
+  height: 132px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 62px;
+}
+main .right-side .login-form .form-header .emoji {
+  background-image: url(../img/waving-hand.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 36px;
+}
+main .right-side .login-form .form-header h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+main .right-side .login-form .form-header p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #292731;
+}
+main .right-side .login-form .form {
+  position: relative;
+}
+main .right-side .login-form .form .icon {
+  background-image: url(../img/information.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 0;
+  top: 2%;
+  cursor: pointer;
+}
+main .right-side .login-form .form .info {
+  position: absolute;
+  top: -25%;
+  right: -45%;
+  font-size: 12px;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  background-color: rgba(225, 224, 224, 0.514);
+  border-radius: 5px;
+}
+main .right-side .login-form .form h3 {
+  margin-bottom: 10px;
+}
+main .right-side .login-form .form input {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px 0 9px 22px;
+  margin-bottom: 30px;
+  width: 418px;
+  background: #ECF2F7;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+main .right-side .login-form .form .btn-login,
+main .right-side .login-form .form .btn-sign {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 100%;
+  background: #4C70FF;
+  border-radius: 8px;
+  margin-top: 14px;
+  padding: 12px 0;
+  cursor: pointer;
+}
+main .right-side .login-form .form .btn-login:hover,
+main .right-side .login-form .form .btn-sign:hover {
+  background: #2e56f6;
+}
+main .right-side .login-form .form .sign {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 19px;
+}
+main .right-side .login-form .form .sign a:hover {
+  color: #2f88e8;
+}
